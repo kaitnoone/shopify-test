@@ -176,8 +176,8 @@ Shopify.theme_settings.cart_action = {{ settings.cart_action | json }};
 * `npm run build`        - Gulp builds the .min files from `scripts` and `styles`, but doesn't watch.
 * `npm run watch`        - Runs theme deploy and theme watch on development config.
 * `npm run test`         - Runs Cypress open and will start any tests.
-* `npm run deploy-dev`   - `theme deploy --env=development`
-* `npm run deploy-stage` - `theme deploy --env=staging`
+* `npm run deploy-dev`   - Runs `theme deploy --env=development`
+* `npm run deploy-stage` - Runs `theme deploy --env=staging`
 
 ## Project Setup
 
@@ -248,6 +248,6 @@ production:
     => Password
 
     Gif for walkthrough:
-    ![Custom App Walkthrough](../setup-docs/shopify-local-theme-development-generate-api.gif)
+    ![Custom App Walkthrough](./setup-docs/shopify-local-theme-development-generate-api.gif)
 
-7. Run `theme deploy
+7. Run `theme deploy`
