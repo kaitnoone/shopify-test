@@ -189,6 +189,8 @@ To build this project:
 4. Run `npm install`
 
 5. Set up config.yml
+  - Note: `settings_data` and `settings_schema` are ignored in snippet below. If you
+    are adding to them from code, uncomment by replacing `-` with `#`.
 
 ``` yaml
 # Password, theme_id, and store variables are required.
@@ -241,5 +243,7 @@ production:
 8. Go to Shopify Admin -> Online Store -> Themes -> Actions -> Edit Code
 9. Grab Theme Id from URL
 10. Add Theme Id to `theme_id` field in `config.yml` (should be a number)
+  Gif of walkthrough:
+  ![Get Theme Id](./setup-docs/shopify-local-theme-development-get-theme-id.gif)
 11. Run `theme deploy`
 12. Shopify Admin -> Online Store -> Themes Actions -> Preview
