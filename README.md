@@ -172,12 +172,12 @@ Shopify.theme_settings.cart_action = {{ settings.cart_action | json }};
 
 ## Commands
 
-`npm run start`        - Starts Gulp watcher on `scripts` and `styles` directories.
-`npm run build`        - Gulp builds the .min files from `scripts` and `styles`, but doesn't watch.
-`npm run watch`        - Runs theme deploy and theme watch on development config.
-`npm run test`         - Runs Cypress open and will start any tests.
-`npm run deploy-dev`   - `theme deploy --env=development`
-`npm run deploy-stage` - `theme deploy --env=staging`
+* `npm run start`        - Starts Gulp watcher on `scripts` and `styles` directories.
+* `npm run build`        - Gulp builds the .min files from `scripts` and `styles`, but doesn't watch.
+* `npm run watch`        - Runs theme deploy and theme watch on development config.
+* `npm run test`         - Runs Cypress open and will start any tests.
+* `npm run deploy-dev`   - `theme deploy --env=development`
+* `npm run deploy-stage` - `theme deploy --env=staging`
 
 ## Project Setup
 
