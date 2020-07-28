@@ -1,10 +1,4 @@
-# {ProjectName}
-
-[Project Name](link to project Basecamp)
-
-Master branch = `master`
-
-# Commands
+## Commands
 
 * `npm run start`        - Starts Gulp watcher on `scripts` and `styles` directories.
 * `npm run build`        - Gulp builds the .min files from `scripts` and `styles`, but doesn't watch.
@@ -13,7 +7,7 @@ Master branch = `master`
 * `npm run deploy-dev`   - Runs `theme deploy --env=development`
 * `npm run deploy-stage` - Runs `theme deploy --env=staging`
 
-## Project Setup
+## Themkit Setup
 
 To build this project:
 
@@ -83,3 +77,4 @@ production:
 9. Grab Theme Id from URL
 10. Add Theme Id to `theme_id` field in `config.yml` (should be a number)
 11. Run `theme deploy`
+12. Shopify Admin -> Online Store -> Themes Actions -> Previe
