@@ -244,7 +244,7 @@ production:
 9. Grab Theme Id from URL
 10. Add Theme Id to `theme_id` field in `config.yml` (should be a number)
 
-  Gif of walkthrough:
+  Gif of walkthrough:  
   ![Get Theme Id](./setup-docs/shopify-local-theme-development-get-theme-id.gif)
 11. Run `theme deploy`
 12. Shopify Admin -> Online Store -> Themes Actions -> Preview
