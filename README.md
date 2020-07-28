@@ -169,6 +169,85 @@ Shopify.theme_settings.cart_action = {{ settings.cart_action | json }};
 7. Include minified files in `theme.liquid`
 - `{{ 'main.min.css' | asset_url | stylesheet_tag }}`
 - `{{ 'index.min.js' | asset_url | script_tag }}`
-8. Add Store url to `cypress.json`
-9. See Project's `README.md` for next steps in setting up the project
 
+## Commands
+
+`npm run start`        - Starts Gulp watcher on `scripts` and `styles` directories.
+`npm run build`        - Gulp builds the .min files from `scripts` and `styles`, but doesn't watch.
+`npm run watch`        - Runs theme deploy and theme watch on development config.
+`npm run test`         - Runs Cypress open and will start any tests.
+`npm run deploy-dev`   - `theme deploy --env=development`
+`npm run deploy-stage` - `theme deploy --env=staging`
+
+## Project Setup
+
+To build this project:
+
+1. Clone repo locally
+
+2. Install Shopify tooling:
+   **Using Homebrew**
+
+   - `brew tap shopify/shopify`
+   - `brew install themekit`
+
+3. Install [Themekit](https://shopify.github.io/themekit/)
+
+4. Run `npm install`
+
+5. Set up config.yml
+
+``` yaml
+# password, theme_id, and store variables are required.
+#
+# For more information on this config file:
+# https://shopify.github.io/themekit/commands/#configure
+
+development:
+  password: [your-api-password]
+  theme_id: "[your-theme-id]"
+  store: [your-store].myshopify.com
+  ignores:
+    -themekit.ignores
+  ignore_files:
+      - config/settings_data.json
+      - config/settings_schema.json  
+  
+staging: 
+  password: [your-api-password]
+  theme_id: "[your-theme-id]"
+  store: [your-store].myshopify.com
+  ignores:
+    -themekit.ignores
+  ignore_files:
+      - config/settings_data.json
+      - config/settings_schema.json  
+  
+production: 
+  password: [your-api-password]
+  theme_id: "[your-theme-id]"
+  store: [your-store].myshopify.com
+  timeout: 100s
+  readonly: true
+```
+
+6. Get password from private app (All developers at The Taproom use the same app for each client)
+
+- **New Client**
+  - Shopify admin => Apps => Private Apps => Manage Private Apps => Create New
+    Private App
+    - Enter App Name (Taproom Development) & Contact Email (kelly@thetaproom.com)
+    - _Theme templates and theme assets_ set to **Read Write** access.
+    - Save
+    - Copy **Password**
+
+    See gif below for walkthrough
+
+- **Previous Client**
+  - Shopify admin => Apps => Private Apps => Manage Private Apps => Taproom App
+    => Password
+
+    Gif for walkthrough:
+    ![Custom App Walkthrough](../setup-docs/shopify-local-theme-development-generate-api.gif)
+
+7. Run `theme deploy
