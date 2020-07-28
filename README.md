@@ -67,12 +67,9 @@ Potential file structure for a project:
 3. Import product.csv (creates products + collections) (https://help.shopify.com/en/manual/products/import-export/import-products)
 4. Head to Online Store > Customize. In the Theme Customizer, select the collection called "Featured" as the Collection in the "Featured collection" block and save.
 5. Download the Shopify theme to your computer (https://help.shopify.com/en/manual/online-store/legacy/using-themes/managing-themes/downloading-themes)
-6. Set up the development environment using our build process. (https://github.com/the-taproom/build-process.git) Follow "Setup in Existing Project" steps.
-7. Edit the Debut theme (default published theme) to make the following changes:
-8. Add a "Buy Now" button to the product loop in the Featured Collection section. The button should appear when you hover over the product's image. (During your pair programming session, you'll link that Buy Now button to add that item to the cart via Ajax.)
-9. Create a new FAQs section. The section should have a title and blocks for question and answer. When you click on a question, the answer's visibility should toggle. We're not testing you on your liquid; we want to see how you write the JavaScript to make the questions toggle to show the answer, and we want to see how you style it for desktop and mobile. 
-10. For this part of the interview process, we're looking at your HTML, CSS, and JavaScript - is it semantic, is it clean, is it mobile-friendly, are you using best practices when writing your code. We also want to see your commit history; we're looking for clarity on how you communicate the changes you're making as requested.
-11. You'll have one week to complete this; the sooner you can get the test back to us, the sooner we can schedule your next interview.
+6. Set up the development environment using our build process.
+   (https://github.com/the-taproom/build-process.git)
+7. Follow "Setup in Existing Project" steps.
 
 ## Build Process Setup in Existing Theme
 
@@ -246,5 +243,28 @@ production:
 
   Gif of walkthrough:  
   ![Get Theme Id](./setup-docs/shopify-local-theme-development-get-theme-id.gif)
+
 11. Run `theme deploy`
 12. Shopify Admin -> Online Store -> Themes Actions -> Preview
+
+## Test Tasks
+  For this part of the interview process, we're looking at your HTML, CSS, and
+  JavaScript - is it semantic, is it clean, is it mobile-friendly, are you
+  using best practices when writing your code. We also want to see your commit
+  history; we're looking for clarity on how you communicate the changes you're
+  making as requested.
+
+**Edit the Debut theme (default published theme) to make the following changes:**
+
+1. Add a "Buy Now" button to the product loop in the Featured Collection
+   section. 
+  The button should appear when you hover over the product's image. (During your pair programming session, you'll link that Buy Now button to add that item to the cart via Ajax.)
+
+2. Create a new FAQs section. 
+   The section should have a title and blocks for question and answer. When you
+   click on a question, the answer's visibility should toggle. We're not testing
+   you on your liquid; we want to see how you write the JavaScript to make the
+   questions toggle to show the answer, and we want to see how you style it for
+   desktop and mobile. 
+
+**You'll have one week to complete this; the sooner you can get the test back to us, the sooner we can schedule your next interview.**

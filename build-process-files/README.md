@@ -24,6 +24,8 @@ To build this project:
 4. Run `npm install`
 
 5. Set up config.yml
+  - Note: `settings_data` and `settings_schema` are ignored in snippet below. If you
+    are adding to them from code, uncomment by replacing `-` with `#`.
 
 ``` yaml
 # Password, theme_id, and store variables are required.
@@ -70,11 +72,37 @@ production:
     - Copy **Password**
 
     Gif for walkthrough:
-    ![Custom App Walkthrough](./setup-docs/shopify-local-theme-development-generate-api.gif)
+    ![Custom App Walkthrough](../setup-docs/shopify-local-theme-development-generate-api.gif)
 
 7. Add password to `config.yml` file
 8. Go to Shopify Admin -> Online Store -> Themes -> Actions -> Edit Code
 9. Grab Theme Id from URL
 10. Add Theme Id to `theme_id` field in `config.yml` (should be a number)
+
+  Gif of walkthrough:  
+  ![Get Theme Id](../setup-docs/shopify-local-theme-development-get-theme-id.gif)
+
 11. Run `theme deploy`
-12. Shopify Admin -> Online Store -> Themes Actions -> Previe
+12. Shopify Admin -> Online Store -> Themes Actions -> Preview
+
+## Test Tasks
+  For this part of the interview process, we're looking at your HTML, CSS, and
+  JavaScript - is it semantic, is it clean, is it mobile-friendly, are you
+  using best practices when writing your code. We also want to see your commit
+  history; we're looking for clarity on how you communicate the changes you're
+  making as requested.
+
+**Edit the Debut theme (default published theme) to make the following changes:**
+
+1. Add a "Buy Now" button to the product loop in the Featured Collection
+   section. 
+  The button should appear when you hover over the product's image. (During your pair programming session, you'll link that Buy Now button to add that item to the cart via Ajax.)
+
+2. Create a new FAQs section. 
+   The section should have a title and blocks for question and answer. When you
+   click on a question, the answer's visibility should toggle. We're not testing
+   you on your liquid; we want to see how you write the JavaScript to make the
+   questions toggle to show the answer, and we want to see how you style it for
+   desktop and mobile. 
+
+**You'll have one week to complete this; the sooner you can get the test back to us, the sooner we can schedule your next interview.**
