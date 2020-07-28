@@ -1,4 +1,6 @@
-# Build Process
+# Taproom Frontend Developer Test
+
+## Build Process Benefit
 
 This build process aims to be an agnostic way to ensure modern features in our
 Shopify projects. It is entirely opt-in. This enables it to be dropped into an

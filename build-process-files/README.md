@@ -1,3 +1,6 @@
+# Taproom Frontend Developer Test Project Specific Info 
+(Also in Taproom Test Readme)
+
 ## Commands
 
 * `npm run start`        - Starts Gulp watcher on `scripts` and `styles` directories.
