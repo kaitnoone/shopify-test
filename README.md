@@ -259,7 +259,7 @@ production:
 - **Setup Private App**
   - Shopify admin => Apps => Private Apps => Manage Private Apps => Create New
     Private App
-    - Enter App Name (Taproom Development) & Contact Email (kelly@thetaproom.com)
+    - Enter App Name (eg: Theme Development) & Contact Email
     - _Theme templates and theme assets_ set to **Read Write** access.
     - Save
     - Copy **Password**
