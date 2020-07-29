@@ -2,6 +2,16 @@
 
 We're excited for you to begin the developer test! We know this is a lot to read, but this readme will walk you through our build process and what's expected of you for this test. If you run into ANY issues, please do not hesitate to reach out at hello@thetaproom.com - we're more than happy to help guide you in the right direction.
 
+## Store Setup
+
+1. [Create a Shopify Partners account ](https://partners.shopify.com)
+2. [Create a development store](https://help.shopify.com/en/partners/dashboard/managing-stores/development-stores#create-a-development-store-for-testing-apps-or-themes)
+3. [Import product.csv (creates products + collections)](https://help.shopify.com/en/manual/products/import-export/import-products) - [Link to Product CSV](https://drive.google.com/file/d/1cQLMbg5ds1-0uvb8WQ0TQyKdn-fYI06b/view?usp=sharing)
+4. Head to Online Store > Customize. In the Theme Customizer, select the collection called "Featured" as the Collection in the "Featured collection" block and save.
+5. [Download the Shopify theme to your computer](https://help.shopify.com/en/manual/online-store/legacy/using-themes/managing-themes/downloading-themes)
+6. [Set up the development environment using our build process.](https://github.com/the-taproom/taproom-frontend-dev-test)
+7. Follow "Build Process Setup in Existing Theme" steps.
+
 ## Test Tasks
   For this part of the interview process, we're looking at your HTML, CSS, and
   JavaScript - is it semantic, is it clean, is it mobile-friendly, are you
@@ -25,6 +35,9 @@ We're excited for you to begin the developer test! We know this is a lot to read
    desktop and mobile. 
    
 ![FAQ Example](./setup-docs/faqs.gif)
+
+**Once complete, please send us a link to your GitHub repo with the dev test, along with a link to your Shopify store. Make sure you send us the password to access as well; you can access that at Online Store > Preferences**
+**You'll have one week to complete this; the sooner you can get the test back to us, the sooner we can schedule your next interview.**
 
 ## Build Process Benefit
 
@@ -88,16 +101,6 @@ Potential file structure for a project:
     |-- templates
 
 ```
-## Store Setup
-
-1. Create a Shopify Partners account (https://partners.shopify.com)
-2. Create a development store (https://help.shopify.com/en/partners/dashboard/managing-stores/development-stores#create-a-development-store-for-testing-apps-or-themes)
-3. Import product.csv (creates products + collections) (https://help.shopify.com/en/manual/products/import-export/import-products)
-4. Head to Online Store > Customize. In the Theme Customizer, select the collection called "Featured" as the Collection in the "Featured collection" block and save.
-5. Download the Shopify theme to your computer (https://help.shopify.com/en/manual/online-store/legacy/using-themes/managing-themes/downloading-themes)
-6. Set up the development environment using our build process.
-   (https://github.com/the-taproom/build-process.git)
-7. Follow "Setup in Existing Project" steps.
 
 ## Build Process Setup in Existing Theme
 
@@ -274,6 +277,3 @@ production:
 
 11. Run `theme deploy`
 12. Shopify Admin -> Online Store -> Themes Actions -> Preview
-
-**Once complete, please send us a link to your GitHub repo with the dev test, along with a link to your Shopify store. Make sure you send us the password to access as well; you can access that at Online Store > Preferences**
-**You'll have one week to complete this; the sooner you can get the test back to us, the sooner we can schedule your next interview.**
