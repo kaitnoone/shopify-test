@@ -9,7 +9,7 @@ We're excited for you to begin the developer test! We know this is a lot to read
 3. [Import product.csv (creates products + collections)](https://help.shopify.com/en/manual/products/import-export/import-products) - [Link to Product CSV](https://drive.google.com/file/d/1cQLMbg5ds1-0uvb8WQ0TQyKdn-fYI06b/view?usp=sharing)
 4. Head to Online Store > Customize. In the Theme Customizer, select the collection called "Featured" as the Collection in the "Featured collection" block and save.
 5. [Download the Shopify theme to your computer](https://help.shopify.com/en/manual/online-store/legacy/using-themes/managing-themes/downloading-themes)
-6. [Set up the development environment using our build process.](https://github.com/the-taproom/taproom-frontend-dev-test)
+6. [Set up the development environment using our build process.](https://github.com/the-taproom/taproom-frontend-dev-test#build-process-benefit)
 7. Follow "Build Process Setup in Existing Theme" steps.
 
 ## Test Tasks
