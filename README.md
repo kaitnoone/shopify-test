@@ -1,5 +1,31 @@
 # Taproom Frontend Developer Test
 
+We're excited for you to begin the developer test! We know this is a lot to read, but this readme will walk you through our build process and what's expected of you for this test. If you run into ANY issues, please do not hesitate to reach out at hello@thetaproom.com - we're more than happy to help guide you in the right direction.
+
+## Test Tasks
+  For this part of the interview process, we're looking at your HTML, CSS, and
+  JavaScript - is it semantic, is it clean, is it mobile-friendly, are you
+  using best practices when writing your code. We also want to see your commit
+  history; we're looking for clarity on how you communicate the changes you're
+  making as requested.
+
+**Edit the Debut theme (default published theme) to make the following changes:**
+
+1. Add a "Buy Now" button to the product loop in the Featured Collection
+   section. 
+  The button should appear when you hover over the product's image. (During your pair programming session, you'll link that Buy Now button to add that item to the cart via Ajax.)
+
+![Buy Now button](./setup-docs/buy-now.png)
+
+2. Create a new FAQs section. 
+   The section should have a title and blocks for question and answer. When you
+   click on a question, the answer's visibility should toggle. We're not testing
+   you on your liquid; we want to see how you write the JavaScript to make the
+   questions toggle to show the answer, and we want to see how you style it for
+   desktop and mobile. 
+   
+![FAQ Example](./setup-docs/faqs.gif)
+
 ## Build Process Benefit
 
 This build process aims to be an agnostic way to ensure modern features in our
@@ -249,24 +275,5 @@ production:
 11. Run `theme deploy`
 12. Shopify Admin -> Online Store -> Themes Actions -> Preview
 
-## Test Tasks
-  For this part of the interview process, we're looking at your HTML, CSS, and
-  JavaScript - is it semantic, is it clean, is it mobile-friendly, are you
-  using best practices when writing your code. We also want to see your commit
-  history; we're looking for clarity on how you communicate the changes you're
-  making as requested.
-
-**Edit the Debut theme (default published theme) to make the following changes:**
-
-1. Add a "Buy Now" button to the product loop in the Featured Collection
-   section. 
-  The button should appear when you hover over the product's image. (During your pair programming session, you'll link that Buy Now button to add that item to the cart via Ajax.)
-
-2. Create a new FAQs section. 
-   The section should have a title and blocks for question and answer. When you
-   click on a question, the answer's visibility should toggle. We're not testing
-   you on your liquid; we want to see how you write the JavaScript to make the
-   questions toggle to show the answer, and we want to see how you style it for
-   desktop and mobile. 
-
+**Once complete, please send us a link to your GitHub repo with the dev test, along with a link to your Shopify store. Make sure you send us the password to access as well; you can access that at Online Store > Preferences**
 **You'll have one week to complete this; the sooner you can get the test back to us, the sooner we can schedule your next interview.**
