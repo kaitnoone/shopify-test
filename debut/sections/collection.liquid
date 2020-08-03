@@ -41,6 +41,7 @@
             <div class="grid-view-item__image-wrapper">
               {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
               {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+              <a href="#" class="btn">Buy Now</a>
             </div>
             <div class="h4 grid-view-item__title" aria-hidden="true">{{ 'homepage.onboarding.product_title' | t }}</div>
             {% include 'product-price' %}

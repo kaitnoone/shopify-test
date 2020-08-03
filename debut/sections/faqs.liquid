@@ -1,0 +1,60 @@
+<div id="faqs" class="faqs page-width">
+    <h2>Frequently Asked Questions</h2>
+    <dl>
+        {% if section.blocks.size > 0 %}
+            {% comment %}
+             <dt><button aria-expanded="false">{{ block.settings.question }}</button></dt>
+            <dd hidden >
+                {{ block.settings.answer }}
+            </dd> 
+            {% endcomment %}
+        {% endif %}
+        <dt class="question"><h3><button aria-expanded="false">Question 1 Title</button></h3></dt>
+        <dd class="answer" hidden >
+            <p>In non tristique ante, nec condimentum tellus. Aliquam eu auctor nulla, mattis accumsan ligula. Vestibulum et ante erat. Morbi in velit nec mauris tincidunt auctor non vel ligula. Curabitur at nisl risus. Ut fermentum tempus nibh ac auctor. Cras ut interdum tellus. Etiam dolor eros, cursus ut venenatis nec, aliquam non velit. Suspendisse potenti. Nunc sed nunc ex. Aliquam et lectus id magna dictum maximus. Vestibulum in accumsan enim. Aliquam dignissim justo eu diam eleifend gravida. Nunc vel elit aliquam, mollis leo eget, auctor risus. Integer finibus consectetur mauris consequat tincidunt.</p>
+        </dd> 
+        <dt class="question"><h3><button aria-expanded="false">Question 2 Title</button></h3></dt>
+        <dd class="answer" hidden >
+            <p>In non tristique ante, nec condimentum tellus. Aliquam eu auctor nulla, mattis accumsan ligula. Vestibulum et ante erat. Morbi in velit nec mauris tincidunt auctor non vel ligula. Curabitur at nisl risus. Ut fermentum tempus nibh ac auctor. Cras ut interdum tellus. Etiam dolor eros, cursus ut venenatis nec, aliquam non velit. Suspendisse potenti. Nunc sed nunc ex. Aliquam et lectus id magna dictum maximus. Vestibulum in accumsan enim. Aliquam dignissim justo eu diam eleifend gravida. Nunc vel elit aliquam, mollis leo eget, auctor risus. Integer finibus consectetur mauris consequat tincidunt.</p>
+        </dd> 
+        <dt class="question"><h3><button aria-expanded="false">Question 3 Title</button></h3></dt>
+        <dd class="answer" hidden >
+            <p>In non tristique ante, nec condimentum tellus. Aliquam eu auctor nulla, mattis accumsan ligula. Vestibulum et ante erat. Morbi in velit nec mauris tincidunt auctor non vel ligula. Curabitur at nisl risus. Ut fermentum tempus nibh ac auctor. Cras ut interdum tellus. Etiam dolor eros, cursus ut venenatis nec, aliquam non velit. Suspendisse potenti. Nunc sed nunc ex. Aliquam et lectus id magna dictum maximus. Vestibulum in accumsan enim. Aliquam dignissim justo eu diam eleifend gravida. Nunc vel elit aliquam, mollis leo eget, auctor risus. Integer finibus consectetur mauris consequat tincidunt.</p>
+        </dd> 
+        <dt class="question"><h3><button aria-expanded="false">Question 4 Title</button></h3></dt>
+        <dd class="answer" hidden >
+            <p>In non tristique ante, nec condimentum tellus. Aliquam eu auctor nulla, mattis accumsan ligula. Vestibulum et ante erat. Morbi in velit nec mauris tincidunt auctor non vel ligula. Curabitur at nisl risus. Ut fermentum tempus nibh ac auctor. Cras ut interdum tellus. Etiam dolor eros, cursus ut venenatis nec, aliquam non velit. Suspendisse potenti. Nunc sed nunc ex. Aliquam et lectus id magna dictum maximus. Vestibulum in accumsan enim. Aliquam dignissim justo eu diam eleifend gravida. Nunc vel elit aliquam, mollis leo eget, auctor risus. Integer finibus consectetur mauris consequat tincidunt.</p>
+        </dd>
+    </dl>
+
+</div>
+{% schema %}
+  {
+    "name": "FAQs",
+    "max_blocks": 9,
+    "blocks": [{
+        "type": "quote",
+        "name": "FAQ",
+        "settings": [
+            {
+                "id": "question",
+                "type": "text",
+                "label": "Add Question",
+                "default": "<p>Add your text here</p>"
+            },
+            {
+                "id": "answer",
+                "type": "richtext",
+                "label": "Add Answer",
+                "default": "<p>Add your text here</p>"
+            }
+        ]
+    }]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
