@@ -1004,16 +1004,6 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@shopify/theme-a11y@^3.0.3":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-a11y/-/theme-a11y-3.1.0.tgz#effe056dd8804dc6485591781e38c72093705df2"
-  integrity sha512-T5d96VtKB28sQeTPw0AuVtvbxbBa9fANUGXhe4g/Hj1cln3vD057dBp4gIOElDLlfzRGYQwsWogrFWtnspA1BA==
-
-"@shopify/theme-sections@^3.0.3":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-sections/-/theme-sections-3.1.0.tgz#6b2859c032cf7bbeddfd62cbee85ec4b97a31fe5"
-  integrity sha512-BXH+vZRdmhcLu6TODxHrSVumclG/ePNoDS7vPjHzTdfZZKUSmxXhPEkR38OWnTVqvbpJ1ccW/qdXZS8UtP7/LA==
-
 "@types/estree@*":
   version "0.0.42"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.42.tgz#8d0c1f480339efedb3e46070e22dd63e0430dd11"
@@ -2223,9 +2213,9 @@ decamelize@^1.1.1, decamelize@^1.1.2, decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-is@~0.1.3:
   version "0.1.3"
