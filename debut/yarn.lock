@@ -1004,16 +1004,6 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@shopify/theme-a11y@^3.0.3":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-a11y/-/theme-a11y-3.1.0.tgz#effe056dd8804dc6485591781e38c72093705df2"
-  integrity sha512-T5d96VtKB28sQeTPw0AuVtvbxbBa9fANUGXhe4g/Hj1cln3vD057dBp4gIOElDLlfzRGYQwsWogrFWtnspA1BA==
-
-"@shopify/theme-sections@^3.0.3":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-sections/-/theme-sections-3.1.0.tgz#6b2859c032cf7bbeddfd62cbee85ec4b97a31fe5"
-  integrity sha512-BXH+vZRdmhcLu6TODxHrSVumclG/ePNoDS7vPjHzTdfZZKUSmxXhPEkR38OWnTVqvbpJ1ccW/qdXZS8UtP7/LA==
-
 "@types/estree@*":
   version "0.0.42"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.42.tgz#8d0c1f480339efedb3e46070e22dd63e0430dd11"
@@ -5456,9 +5446,9 @@ q@^1.1.2:
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 querystring@0.2.0:
   version "0.2.0"
